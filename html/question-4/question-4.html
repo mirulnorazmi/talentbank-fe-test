@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question 4 - Create Form</title>
+</head>
+<body>
+  <h1>Create Form</h1>
+  <form action="https://www.example.com" method="POST">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="your name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="example@email.com" required><br><br>
+
+    <label for="phone">Phone:</label><br>
+    <input type="number" id="phone" name="phone" placeholder="0117891022" required><br><br>
+
+    <span>Gender : </span><br>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label><br>
+    
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50" placeholder="insert your message here" required></textarea><br><br>
+
+    <label for="transportation">I have transportation:</label>
+
+    <select name="transportation" id="transportation" required>
+      <option value="" disabled selected>Click here to select</option>
+      <option value="cars">Car</option>
+      <option value="motorcycle">Motorcycle</option>
+      <option value="car_motorcycle">I have Car and Motorcycle</option>
+      <option value="none">I dont have any</option>
+    </select>
+    <br><br>
+
+    <input type="checkbox" id="tnc" name="tnc" value="agree_tnc" required>
+    <label for="tnc"> I agree to the terms and conditions</label><br>
+    <input type="checkbox" id="pnp" name="pnp" value="read_pnp" required>
+    <label for="pnp"> I have read privacy & policy</label><br><br>
+
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>

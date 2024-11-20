@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+  background-color: #f4f4f9;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: #3498db;
+  margin: 0 auto;
+  transition: all 1s ease-in-out 0.5s;
+}
+
+.box.transition-duration {
+  transition-duration: 2s;
+}
+
+.box.transition-delay {
+  transition-delay: 1s;
+}
+
+.box.transition-property {
+  transition-property: background-color, transform;
+}
+
+.box.transition-timing-function {
+  transition-timing-function: ease-in; 
+}
+
+.box:hover {
+  background-color: #e74c3c;
+  transform: rotate(45deg);
+}
+
+.toggle-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #000;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.toggle-button:hover {
+  background-color: #2ecc71;
+  transform: scale(3);
+}

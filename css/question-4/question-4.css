@@ -1,0 +1,27 @@
+:root {
+  --main-color: #3498db;
+  --secondary-color: #2ecc71;
+  --font-color: #333;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: var(--font-color);
+  padding: 20px;
+}
+
+h1{
+   text-align: center;
+}
+
+.variable-heading {
+  color: var(--main-color);
+}
+
+p.first {
+  color: var(--font-color);
+}
+
+p {
+  color: var(--secondary-color);
+}

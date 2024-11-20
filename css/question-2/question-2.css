@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.styled-heading::before {
+  content: "🌟 ";
+  color: gold;
+}
+
+.styled-heading::after {
+  content: " 🌟";
+  color: gold;
+}
+
+p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+
+p::first-line {
+  font-weight: bold;
+  color: darkblue;
+}
